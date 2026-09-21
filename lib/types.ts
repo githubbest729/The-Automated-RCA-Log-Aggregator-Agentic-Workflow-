@@ -45,4 +45,5 @@ export interface AnalysisResult {
   probableRootCause: string;
   timeline: TimelineEvent[];
   crossDomainCorrelations: string[];
+  partial?: boolean;
 }
