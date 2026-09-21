@@ -4,7 +4,7 @@ import "./globals.css";
 // NOTE: og-image.png, favicon.ico, and apple-touch-icon.png must be added to
 // /public manually — see public/ASSETS_README.md for exact specs and paths.
 
-const SITE_URL = "https://your-rca-aggregator.onrender.com"; // TODO: replace with your production URL
+const SITE_URL = "https://the-automated-rca-log-aggregator-ag-drab.vercel.app"; // TODO: replace with your production URL
 
 export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),
